@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Log.d("duc_anh","Hello!!!");
+        Log.d("duc_anh", "Hello1!!!");
+        Log.d("duc_anh", "Hello2!!!");
         toolbarSuper.setSubtitleTextColor(Color.YELLOW);
     }
 
