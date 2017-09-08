@@ -6,6 +6,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,15 +20,18 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        FloatingActionButton floatingActionButton = (FloatingActionButton) findViewById(R.id.fab);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action?", Snackbar.LENGTH_SHORT)
                         .setAction("Action", null).show();
             }
         });
-        toolbar.setSubtitleTextColor(Color.YELLOW);
+        Log.d("duc_anh", "Hello1!!!");
+        Log.d("duc_anh", "Hello2!!!");
+        toolbarBaby.setSubtitleTextColor(Color.YELLOW);
+        toolbarBaby.setSubtitleTextColor(Color.BLACK);
     }
 
     @Override
