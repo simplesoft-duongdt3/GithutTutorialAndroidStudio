@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        Toolbar toolbarDA = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbarDA);
 
         FloatingActionButton floatingActionButton = (FloatingActionButton) findViewById(R.id.fab);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
         });
         Log.d("duc_anh", "Hello1!!!");
         Log.d("duc_anh", "Hello2!!!");
-        toolbarBaby.setSubtitleTextColor(Color.YELLOW);
-        toolbarBaby.setSubtitleTextColor(Color.BLACK);
+        toolbarDA.setSubtitleTextColor(Color.YELLOW);
+        toolbarDA.setSubtitleTextColor(Color.BLACK);
     }
 
     @Override
