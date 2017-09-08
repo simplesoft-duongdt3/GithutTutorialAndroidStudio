@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("duc_anh", "Hello1!!!");
         Log.d("duc_anh", "Hello2!!!");
         toolbarBaby.setSubtitleTextColor(Color.YELLOW);
+        toolbarBaby.setSubtitleTextColor(Color.BLACK);
     }
 
     @Override
